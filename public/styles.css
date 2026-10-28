@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+input, select, button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #d8dce6;
+  font-size: 16px;
+}
+
+button {
+  background: #2f80ed;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #1f67c9;
+}
+
+.qr-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-box img {
+  width: 220px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#reader {
+  width: 100%;
+  max-width: 320px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#scanMessage {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2d6a4f;
+}
+
+#attendanceList {
+  margin-top: 12px;
+}
+
+.attendance-item {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
